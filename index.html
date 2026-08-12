@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giriş Yap</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ana içerik -->
+    <main>
+      <!-- sol taraf resim alanı -->
+      <section class="image-section">
+        <div>
+          <h2>Hoş Geldiniz</h2>
+          <p>Topluluğumaza katılın ve yaratıcılığınızı serbest bırakın</p>
+        </div>
+      </section>
+
+      <!--sağ taraftaki form alanı-->
+      <section class="form-section">
+        <header>
+          <h2>Hesabınıza Giriş Yapın</h2>
+          <p>Lütfen bilgilerinizi girin</p>
+        </header>
+
+        <form>
+          <div class="input-group">
+            <label for="email">E-posta</label>
+            <input id="email" type="email" placeholder="ornek@mail.com" />
+          </div>
+          <div class="input-group">
+            <label for="pasword">Şifre</label>
+            <input id="pasword" type="password" placeholder="***********" />
+          </div>
+
+          <div class="options">
+            <label for="remember">
+              <input id="remember" type="checkbox" /> Beni Hatırla
+            </label>
+
+            <a href="#">Şifremi Unuttum</a>
+          </div>
+
+          <button type="submit">Giriş Yap</button>
+        </form>
+
+        <div class="divider">veya</div>
+
+        <button type="button">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo51RaSL38xlksvpHe9OoUJhg5oB5vlyKqJm5fjqdgkA&s=10"
+            alt="logo"
+            width="20px"
+            height="20px"
+          />
+          Google İle Giriş Yap
+        </button>
+
+        <footer>
+          <p>Hesabınız yok mu? <a href="#">Kayıt Ol</a></p>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
